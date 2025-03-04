@@ -231,7 +231,7 @@ public class Zadanie_TEST {
                             case "TRY":
                             case "try":
                                 kurs2 = kursTRY;
-                                bankCNY = bankTRY + summa * kurs1 / kurs2;
+                                bankTRY = bankTRY + summa * kurs1 / kurs2;
                                 break;
                             case "RUB":
                             case "rub":
